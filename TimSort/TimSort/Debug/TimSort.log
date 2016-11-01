@@ -1,0 +1,76 @@
+﻿  main.cpp
+d:\visual c++\projects\timsort\timsort\test.h(17): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\visual c++\projects\timsort\timsort\test.h(18): warning C4838: преобразование из "int" в "size_t" требует сужающего преобразования
+d:\visual c++\projects\timsort\timsort\test.h(28): warning C4018: <: несоответствие типов со знаком и без знака
+d:\visual c++\projects\timsort\timsort\test.h(42): warning C4018: <: несоответствие типов со знаком и без знака
+d:\visual c++\projects\timsort\timsort\test.h(52): warning C4018: <: несоответствие типов со знаком и без знака
+d:\visual c++\projects\timsort\timsort\test.h(68): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\visual c++\projects\timsort\timsort\test.h(69): warning C4838: преобразование из "int" в "size_t" требует сужающего преобразования
+d:\visual c++\projects\timsort\timsort\test.h(79): warning C4018: <: несоответствие типов со знаком и без знака
+d:\visual c++\projects\timsort\timsort\test.h(93): warning C4018: <: несоответствие типов со знаком и без знака
+d:\visual c++\projects\timsort\timsort\test.h(103): warning C4018: <: несоответствие типов со знаком и без знака
+d:\visual c++\projects\timsort\timsort\test.h(117): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\visual c++\projects\timsort\timsort\test.h(184): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\visual c++\projects\timsort\timsort\timsort.h(30): warning C4018: >=: несоответствие типов со знаком и без знака
+  d:\visual c++\projects\timsort\timsort\timsort.h(107): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void separate_into_runs<RandomAccessIterator>(const RandomAccessIterator &,const RandomAccessIterator &,RunsStack<RandomAccessIterator> *,const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=int *
+          ]
+  d:\visual c++\projects\timsort\timsort\test.h(39): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void TimSort<int*>(const RandomAccessIterator &,const RandomAccessIterator &,const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=int *
+          ]
+d:\visual c++\projects\timsort\timsort\timsort.h(43): warning C4018: >=: несоответствие типов со знаком и без знака
+d:\visual c++\projects\timsort\timsort\timsort.h(75): warning C4018: >=: несоответствие типов со знаком и без знака
+  d:\visual c++\projects\timsort\timsort\timsort.h(118): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void separate_into_runs<RandomAccessIterator,bool(__cdecl *)(const int &,const int &)>(const RandomAccessIterator &,const RandomAccessIterator &,RunsStack<RandomAccessIterator> *,Compare,const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=int *,
+              Compare=bool (__cdecl *)(const int &,const int &)
+          ]
+  d:\visual c++\projects\timsort\timsort\test.h(48): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void TimSort<int*,bool(__cdecl *)(const int &,const int &)>(const RandomAccessIterator &,const RandomAccessIterator &,Compare,const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=int *,
+              Compare=bool (__cdecl *)(const int &,const int &)
+          ]
+d:\visual c++\projects\timsort\timsort\timsort.h(88): warning C4018: >=: несоответствие типов со знаком и без знака
+d:\visual c++\projects\timsort\timsort\inplacemerge.h(11): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  d:\visual c++\projects\timsort\timsort\runsstack.h(114): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void inplaceMerge<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>>(RandomAccessIterator,RandomAccessIterator,RandomAccessIterator,const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+  d:\visual c++\projects\timsort\timsort\runsstack.h(111): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  d:\visual c++\projects\timsort\timsort\timsort.h(109): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void RunsStack<RandomAccessIterator>::finalMerge(const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+  d:\visual c++\projects\timsort\timsort\timsort.h(105): note: см. ссылку на создание экземпляров класса шаблон при компиляции "RunsStack<RandomAccessIterator>"
+          with
+          [
+              RandomAccessIterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+d:\visual c++\projects\timsort\timsort\inplacemerge.h(45): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  d:\visual c++\projects\timsort\timsort\runsstack.h(124): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void inplaceMerge<RandomAccessIterator,bool(__cdecl *)(const int &,const int &)>(RandomAccessIterator,RandomAccessIterator,RandomAccessIterator,Compare,const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=int *,
+              Compare=bool (__cdecl *)(const int &,const int &)
+          ]
+  d:\visual c++\projects\timsort\timsort\timsort.h(120): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void RunsStack<RandomAccessIterator>::finalMerge<bool(__cdecl *)(const int &,const int &)>(Compare,const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=int *,
+              Compare=bool (__cdecl *)(const int &,const int &)
+          ]
+  d:\visual c++\projects\timsort\timsort\timsort.h(120): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void RunsStack<RandomAccessIterator>::finalMerge<bool(__cdecl *)(const int &,const int &)>(Compare,const ITimSortParams &)"
+          with
+          [
+              RandomAccessIterator=int *,
+              Compare=bool (__cdecl *)(const int &,const int &)
+          ]
+  TimSort.vcxproj -> D:\Visual C++\Projects\TimSort\Debug\TimSort.exe
